@@ -1,0 +1,1 @@
+This is a practice project based on the Project: Landing Page within the course "Foundation Couse".
