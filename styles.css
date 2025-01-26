@@ -1,16 +1,49 @@
 * {
-    border: 1px solid red;
+    border: 1px solid blue;
     margin: 0 0 41px 0;
 }
 
+/*/* Container-1 items */*
+
 .container-1 {
+    height: 40px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #logo {
     border: 1px solid blue;
     color: Red;
-    
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    border: 1px solid green;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/*/* Container-2 items */*
+
+.container-2 {
+    margin: 80px 0 20px 0;
+    padding: 80px;
+    height: 170px;
+    display: flex;
+    gap: 20px;
+}
+
+.holder-1 {
+    height: 170px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
 }
