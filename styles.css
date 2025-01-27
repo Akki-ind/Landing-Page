@@ -1,28 +1,33 @@
 * {
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 255, 0.1);
     margin: 0 0 41px 0;
+}
+
+body {
+    padding: 5px 280px 0px 280px;
 }
 
 /*/* Container-1 items */*
 
 .container-1 {
     height: 40px;
-    margin-bottom: 20px;
+    margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    background-color: teal;
 }
 
 #logo {
-    border: 1px solid blue;
+  /*  border: 1px solid blue;  */
     color: Red;
     height: 40px;
     margin-bottom: 20px;
 }
 
 #nav {
-    border: 1px solid green;
+  /*  border: 1px solid green;  */
     height: 40px;
     margin-bottom: 20px;
     display: flex;
@@ -33,17 +38,56 @@
 /*/* Container-2 items */*
 
 .container-2 {
-    margin: 80px 0 20px 0;
+    margin: 0;
     padding: 80px;
     height: 170px;
     display: flex;
     gap: 20px;
+    align-items: center;
+    background-color: darkblue;
 }
 
 .holder-1 {
-    height: 170px;
-    width: 600px;
+    height: 185px;
+    width: 500px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap
+    gap: 5px;
+}
+
+.holder-2 {
+    height: 185px;
+    width: 600px;
+    margin: 0;
+    display: flex;
+}
+
+/* Holder-Subs */
+
+.holder-1 h2, p, button {
+    margin: 0;
+}
+.holder-1 h2 {
+    font-size: 2em;
+    color: aliceblue;
+}
+.holder-1 p {
+    opacity: 0.6;
+    height: 75px;
+    padding: 0 20px;
+    color: antiquewhite;
+}
+.holder-1 button {
+    width: 60px;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    opacity: 0.9;
+}
+
+.holder-2 img {
+    margin: 0;
+    height: 185px;
+    width: 460px;
 }
