@@ -4,13 +4,15 @@
 }
 
 body {
-    padding: 5px 280px 0px 280px;
+    padding: 5px 280px 5px 280px;
+    margin: 0;
+    width: 50
 }
 
 /*/* Container-1 items */*
 
 .container-1 {
-    height: 40px;
+    height: 35px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -91,3 +93,14 @@ body {
     height: 185px;
     width: 460px;
 }
+
+/*/* Container-3 items */*
+
+/* holder-1 */
+
+.container-3 h3 {
+    text-align: center;
+    font-size: 2em;
+    padding: 5px
+}
+
