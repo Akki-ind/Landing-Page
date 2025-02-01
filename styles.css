@@ -104,3 +104,9 @@ body {
     padding: 5px
 }
 
+.container-3 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
